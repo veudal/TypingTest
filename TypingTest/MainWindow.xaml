@@ -1,0 +1,69 @@
+﻿<Window x:Class="TypingTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TypingTest"
+        mc:Ignorable="d"
+        Title="TypingTest" Height="450" Width="800" Background="#FF1F1F1F">
+    <Window.Resources>
+        <Style x:Key="ButtonRoundedCorner" TargetType="Button">
+            <Setter Property="Background" Value="Silver"/>
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="10" Background="{TemplateBinding Background}" BorderThickness="2">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center">
+                            </ContentPresenter>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock  x:Name="RandomText"  Grid.Column="2" Grid.Row="3" Grid.RowSpan="3" Grid.ColumnSpan="10" Padding="15" TextWrapping="NoWrap" Foreground="AliceBlue" FontSize="40"/>
+        <TextBox x:Name="InputTextBox" Padding="5" FontSize="30" CommandManager.PreviewCanExecute="HandleCanExecute"  Grid.Column="2" Foreground="White"  BorderThickness="0" Margin="3" Grid.Row="9" Grid.RowSpan="2" Grid.ColumnSpan="10" Background="#FF171717"  TextChanged="InputTextBox_TextChanged" />
+        <TextBlock Foreground="MediumPurple" FontSize="20" Grid.Column="12" Grid.Row="6" TextAlignment="Center"  Grid.ColumnSpan="2" Text="Words left:"/>
+        <TextBlock x:Name="RemainingWords" Foreground="MediumPurple" FontSize="20" Grid.Column="12" Grid.Row="7" TextAlignment="Center"  Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="WPM" Foreground="SpringGreen" FontSize="20" Grid.Column="12" Grid.Row="4" TextAlignment="Center"  Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="Info" Text="Test starts on first input" Foreground="DeepSkyBlue" FontSize="16" Grid.Column="5" TextAlignment="Center" Grid.Row="7" Grid.ColumnSpan="4" FontStyle="Italic"/>
+        <TextBlock Foreground="IndianRed" FontSize="20" Grid.Column="12" Grid.Row="9" Text="Mistakes:" TextAlignment="Center"  Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="Mistakes" Foreground="IndianRed" FontSize="20" Grid.Column="12" Grid.Row="10" TextAlignment="Center" Grid.RowSpan="4"  Grid.ColumnSpan="2"/>
+        <Button x:Name="AgainBtn" Content="Again" Style="{StaticResource ButtonRoundedCorner}" Background="SeaGreen" FontSize="28" Visibility="Hidden" FontWeight="Bold" Grid.Row="11" Grid.Column="6" Margin="0,20,0,20" Grid.ColumnSpan="2" Grid.RowSpan="3" Click="AgainBtn_Click"/>
+    </Grid>
+</Window>

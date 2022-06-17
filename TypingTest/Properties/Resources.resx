@@ -1,0 +1,874 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="1" xml:space="preserve">
+    <value>They improved dramatically once the lead singer left.</value>
+  </data>
+  <data name="10" xml:space="preserve">
+    <value>Today arrived with a crash of my car through the garage door.</value>
+  </data>
+  <data name="100" xml:space="preserve">
+    <value>Truth in advertising and dinosaurs with skateboards have much in common.</value>
+  </data>
+  <data name="101" xml:space="preserve">
+    <value>The knives were out and she was sharpening hers.</value>
+  </data>
+  <data name="102" xml:space="preserve">
+    <value>Red is greener than purple, for sure.</value>
+  </data>
+  <data name="103" xml:space="preserve">
+    <value>Behind the window was a reflection that only instilled fear.</value>
+  </data>
+  <data name="104" xml:space="preserve">
+    <value>My dentist tells me that chewing bricks is very bad for your teeth.</value>
+  </data>
+  <data name="105" xml:space="preserve">
+    <value>People keep telling me "orange" but I still prefer "pink".</value>
+  </data>
+  <data name="106" xml:space="preserve">
+    <value>He was an introvert that extroverts seemed to love.</value>
+  </data>
+  <data name="107" xml:space="preserve">
+    <value>Peanut butter and jelly caused the elderly lady to think about her past.</value>
+  </data>
+  <data name="108" xml:space="preserve">
+    <value>His get rich quick scheme was to grow a cactus farm.</value>
+  </data>
+  <data name="109" xml:space="preserve">
+    <value>I'm confused: when people ask me what's up, and I point, they groan.</value>
+  </data>
+  <data name="11" xml:space="preserve">
+    <value>The toddlers endless tantrum caused the entire plane anxiety.</value>
+  </data>
+  <data name="110" xml:space="preserve">
+    <value>She always had an interesting perspective on why the world must be flat.</value>
+  </data>
+  <data name="111" xml:space="preserve">
+    <value>Fluffy pink unicorns are a popular status symbol among macho men.</value>
+  </data>
+  <data name="112" xml:space="preserve">
+    <value>It's much more difficult to play tennis with a bowling ball than it is to bowl with a tennis ball.</value>
+  </data>
+  <data name="113" xml:space="preserve">
+    <value>Everyone says they love nature until they realize how dangerous she can be.</value>
+  </data>
+  <data name="114" xml:space="preserve">
+    <value>It's difficult to understand the lengths he'd go to remain short.</value>
+  </data>
+  <data name="115" xml:space="preserve">
+    <value>She says she has the ability to hear the soundtrack of your life.</value>
+  </data>
+  <data name="116" xml:space="preserve">
+    <value>She wore green lipstick like a fashion icon.</value>
+  </data>
+  <data name="117" xml:space="preserve">
+    <value>If you like tuna and tomato sauce, try combining the two, it's really not as bad as it sounds.</value>
+  </data>
+  <data name="118" xml:space="preserve">
+    <value>I think I will buy the red car, or I will lease the blue one.</value>
+  </data>
+  <data name="119" xml:space="preserve">
+    <value>Martha came to the conclusion that shake weights are a great gift for any occasion.</value>
+  </data>
+  <data name="12" xml:space="preserve">
+    <value>Karen realized the only way she was getting into heaven was to cheat.</value>
+  </data>
+  <data name="120" xml:space="preserve">
+    <value>The manager of the fruit stand always sat and only sold vegetables.</value>
+  </data>
+  <data name="121" xml:space="preserve">
+    <value>Greetings from the real universe.</value>
+  </data>
+  <data name="122" xml:space="preserve">
+    <value>The tortoise jumped into the lake with dreams of becoming a sea turtle.</value>
+  </data>
+  <data name="123" xml:space="preserve">
+    <value>He's in a boy band which doesn't make much sense for a snake.</value>
+  </data>
+  <data name="124" xml:space="preserve">
+    <value>This is a Japanese doll.</value>
+  </data>
+  <data name="125" xml:space="preserve">
+    <value>Malls are great places to shop; I can find everything I need under one roof.</value>
+  </data>
+  <data name="126" xml:space="preserve">
+    <value>He turned in the research paper on Friday; otherwise, he would have not passed the class.</value>
+  </data>
+  <data name="127" xml:space="preserve">
+    <value>Last Friday I saw a spotted striped blue worm shake hands with a legless lizard.</value>
+  </data>
+  <data name="128" xml:space="preserve">
+    <value>She found his complete dullness interesting.</value>
+  </data>
+  <data name="129" xml:space="preserve">
+    <value>After exploring the abandoned building, he started to believe in ghosts.</value>
+  </data>
+  <data name="13" xml:space="preserve">
+    <value>It didn't take long for Gary to detect the robbers were amateurs.</value>
+  </data>
+  <data name="130" xml:space="preserve">
+    <value>A dead duck doesn't fly backward.</value>
+  </data>
+  <data name="131" xml:space="preserve">
+    <value>The blue parrot drove by the hitchhiking mongoose.</value>
+  </data>
+  <data name="132" xml:space="preserve">
+    <value>He was willing to find the depths of the rabbit hole in order to be with her.</value>
+  </data>
+  <data name="133" xml:space="preserve">
+    <value>I come from a tribe of head-hunters, so I will never need a shrink.</value>
+  </data>
+  <data name="134" xml:space="preserve">
+    <value>We have young kids who often walk into our room at night for various reasons including clowns in the closet.</value>
+  </data>
+  <data name="135" xml:space="preserve">
+    <value>The shark-infested South Pine channel was the only way in or out.</value>
+  </data>
+  <data name="136" xml:space="preserve">
+    <value>Her daily goal was to improve on yesterday.</value>
+  </data>
+  <data name="137" xml:space="preserve">
+    <value>In hopes of finding out the truth, he entered the one-room library.</value>
+  </data>
+  <data name="138" xml:space="preserve">
+    <value>People generally approve of dogs eating cat food but not cats eating dog food.</value>
+  </data>
+  <data name="139" xml:space="preserve">
+    <value>He went back to the video to see what had been recorded and was shocked at what he saw.</value>
+  </data>
+  <data name="14" xml:space="preserve">
+    <value>It didn't make sense unless you had the power to eat colors.</value>
+  </data>
+  <data name="140" xml:space="preserve">
+    <value>The tart lemonade quenched her thirst, but not her longing.</value>
+  </data>
+  <data name="141" xml:space="preserve">
+    <value>Hang on, my kittens are scratching at the bathtub and they'll upset by the lack of biscuits.</value>
+  </data>
+  <data name="142" xml:space="preserve">
+    <value>Dan ate the clouds like cotton candy.</value>
+  </data>
+  <data name="143" xml:space="preserve">
+    <value>Dolores wouldn't have eaten the meal if she had known what it actually was.</value>
+  </data>
+  <data name="144" xml:space="preserve">
+    <value>The gruff old man sat in the back of the bait shop grumbling to himself as he scooped out a handful of worms.</value>
+  </data>
+  <data name="145" xml:space="preserve">
+    <value>She let the balloon float up into the air with her hopes and dreams.</value>
+  </data>
+  <data name="146" xml:space="preserve">
+    <value>Boulders lined the side of the road foretelling what could come next.</value>
+  </data>
+  <data name="147" xml:space="preserve">
+    <value>He is no James Bond; his name is Roger Moore.</value>
+  </data>
+  <data name="148" xml:space="preserve">
+    <value>The Guinea fowl flies through the air with all the grace of a turtle.</value>
+  </data>
+  <data name="149" xml:space="preserve">
+    <value>As the rental car rolled to a stop on the dark road, her fear increased by the moment.</value>
+  </data>
+  <data name="15" xml:space="preserve">
+    <value>He would only survive if he kept the fire going and he could hear thunder in the distance.</value>
+  </data>
+  <data name="150" xml:space="preserve">
+    <value>The busker hoped that the people passing by would throw money, but they threw tomatoes instead, so he exchanged his hat for a juicer.</value>
+  </data>
+  <data name="151" xml:space="preserve">
+    <value>She couldn't decide of the glass was half empty or half full so she drank it.</value>
+  </data>
+  <data name="152" xml:space="preserve">
+    <value>If any cop asks you where you were, just say you were visiting Kansas.</value>
+  </data>
+  <data name="153" xml:space="preserve">
+    <value>He colored deep space a soft yellow.</value>
+  </data>
+  <data name="154" xml:space="preserve">
+    <value>Red is greener than purple, for sure.</value>
+  </data>
+  <data name="155" xml:space="preserve">
+    <value>It took him a month to finish the meal.</value>
+  </data>
+  <data name="156" xml:space="preserve">
+    <value>More RVs were seen in the storage lot than at the campground.</value>
+  </data>
+  <data name="157" xml:space="preserve">
+    <value>Nancy decided to make the porta-potty her home.</value>
+  </data>
+  <data name="158" xml:space="preserve">
+    <value>He took one look at what was under the table and noped the hell out of there.</value>
+  </data>
+  <data name="159" xml:space="preserve">
+    <value>The hummingbird's wings blurred while it eagerly sipped the sugar water from the feeder.</value>
+  </data>
+  <data name="16" xml:space="preserve">
+    <value>My dentist tells me that chewing bricks is very bad for your teeth.</value>
+  </data>
+  <data name="160" xml:space="preserve">
+    <value>I'm working on a sweet potato farm.</value>
+  </data>
+  <data name="161" xml:space="preserve">
+    <value>Siri became confused when we reused to follow her directions.</value>
+  </data>
+  <data name="162" xml:space="preserve">
+    <value>Whenever he saw a red flag warning at the beach he grabbed his surfboard.</value>
+  </data>
+  <data name="163" xml:space="preserve">
+    <value>The Japanese yen for commerce is still well-known.</value>
+  </data>
+  <data name="164" xml:space="preserve">
+    <value>It was the best sandcastle he had ever seen.</value>
+  </data>
+  <data name="165" xml:space="preserve">
+    <value>She found it strange that people use their cellphones to actually talk to one another.</value>
+  </data>
+  <data name="166" xml:space="preserve">
+    <value>Tom got a small piece of pie.</value>
+  </data>
+  <data name="167" xml:space="preserve">
+    <value>My dentist tells me that chewing bricks is very bad for your teeth.</value>
+  </data>
+  <data name="168" xml:space="preserve">
+    <value>At that moment he wasn't listening to music, he was living an experience.</value>
+  </data>
+  <data name="169" xml:space="preserve">
+    <value>There's a growing trend among teenagers of using frisbees as go-cart wheels.</value>
+  </data>
+  <data name="17" xml:space="preserve">
+    <value>Plans for this weekend include turning wine into water.</value>
+  </data>
+  <data name="170" xml:space="preserve">
+    <value>He never understood why what, when, and where left out who.</value>
+  </data>
+  <data name="171" xml:space="preserve">
+    <value>Her life in the confines of the house became her new normal.</value>
+  </data>
+  <data name="172" xml:space="preserve">
+    <value>She moved forward only because she trusted that the ending she now was going through must be followed by a new beginning.</value>
+  </data>
+  <data name="173" xml:space="preserve">
+    <value>The sudden rainstorm washed crocodiles into the ocean.</value>
+  </data>
+  <data name="174" xml:space="preserve">
+    <value>She hadn't had her cup of coffee, and that made things all the worse.</value>
+  </data>
+  <data name="175" xml:space="preserve">
+    <value>Flash photography is best used in full sunlight.</value>
+  </data>
+  <data name="176" xml:space="preserve">
+    <value>At last there was a moving rabbit in front of me.</value>
+  </data>
+  <data name="177" xml:space="preserve">
+    <value>A kangaroo is really just a rabbit on steroids.</value>
+  </data>
+  <data name="178" xml:space="preserve">
+    <value>Rock music approaches at high velocity.</value>
+  </data>
+  <data name="179" xml:space="preserve">
+    <value>When motorists sped in and out of traffic, all she could think of was those in need of a transplant.</value>
+  </data>
+  <data name="18" xml:space="preserve">
+    <value>I honestly find her about as intimidating as a basket of kittens.</value>
+  </data>
+  <data name="180" xml:space="preserve">
+    <value>There is no better feeling than staring at a wall with closed eyes.</value>
+  </data>
+  <data name="181" xml:space="preserve">
+    <value>I am my aunt's sister's daughter.</value>
+  </data>
+  <data name="182" xml:space="preserve">
+    <value>He wasn't bitter that she had moved on but from the radish.</value>
+  </data>
+  <data name="183" xml:space="preserve">
+    <value>Warm beer on a cold day isn't my idea of fun.</value>
+  </data>
+  <data name="184" xml:space="preserve">
+    <value>She cried diamonds.</value>
+  </data>
+  <data name="185" xml:space="preserve">
+    <value>For some unfathomable reason, the response team didn't consider a lack of milk for my cereal as a proper emergency.</value>
+  </data>
+  <data name="186" xml:space="preserve">
+    <value>I'd rather be a bird than a fish.</value>
+  </data>
+  <data name="187" xml:space="preserve">
+    <value>Flesh-colored yoga pants were far worse than even he feared.</value>
+  </data>
+  <data name="188" xml:space="preserve">
+    <value>It doesn't sound like that will ever be on my travel list.</value>
+  </data>
+  <data name="189" xml:space="preserve">
+    <value>The fog was so dense even a laser decided it wasn't worth the effort.</value>
+  </data>
+  <data name="19" xml:space="preserve">
+    <value>He had unknowingly taken up sleepwalking as a nighttime hobby.</value>
+  </data>
+  <data name="190" xml:space="preserve">
+    <value>When she didn't like a guy who was trying to pick her up, she started using sign language.</value>
+  </data>
+  <data name="191" xml:space="preserve">
+    <value>Happiness can be found in the depths of chocolate pudding.</value>
+  </data>
+  <data name="192" xml:space="preserve">
+    <value>Mr. Montoya knows the way to the bakery even though he's never been there.</value>
+  </data>
+  <data name="193" xml:space="preserve">
+    <value>The light that burns twice as bright burns half as long.</value>
+  </data>
+  <data name="194" xml:space="preserve">
+    <value>He stepped gingerly onto the bridge knowing that enchantment awaited on the other side.</value>
+  </data>
+  <data name="195" xml:space="preserve">
+    <value>Just because the water is red doesn't mean you can't drink it.</value>
+  </data>
+  <data name="196" xml:space="preserve">
+    <value>There can never be too many cherries on an ice cream sundae.</value>
+  </data>
+  <data name="197" xml:space="preserve">
+    <value>My biggest joy is roasting almonds while stalking prey.</value>
+  </data>
+  <data name="198" xml:space="preserve">
+    <value>It's important to remember to be aware of rampaging grizzly bears.</value>
+  </data>
+  <data name="199" xml:space="preserve">
+    <value>There are few things better in life than a slice of pie.</value>
+  </data>
+  <data name="2" xml:space="preserve">
+    <value>I'm not a party animal, but I do like animal parties.</value>
+  </data>
+  <data name="20" xml:space="preserve">
+    <value>We're careful about orange ping pong balls because people might think they're fruit.</value>
+  </data>
+  <data name="200" xml:space="preserve">
+    <value>He said he was not there yesterday; however, many people saw him there.</value>
+  </data>
+  <data name="201" xml:space="preserve">
+    <value>Sarah ran from the serial killer holding a jug of milk.</value>
+  </data>
+  <data name="202" xml:space="preserve">
+    <value>Warm beer on a cold day isn't my idea of fun.</value>
+  </data>
+  <data name="203" xml:space="preserve">
+    <value>Standing on one's head at job interviews forms a lasting impression.</value>
+  </data>
+  <data name="204" xml:space="preserve">
+    <value>The dead trees waited to be ignited by the smallest spark and seek their revenge.</value>
+  </data>
+  <data name="205" xml:space="preserve">
+    <value>If you spin around three times, you'll start to feel melancholy.</value>
+  </data>
+  <data name="206" xml:space="preserve">
+    <value>He decided to live his life by the big beats manifesto.</value>
+  </data>
+  <data name="207" xml:space="preserve">
+    <value>A suit of armor provides excellent sun protection on hot days.</value>
+  </data>
+  <data name="208" xml:space="preserve">
+    <value>Shakespeare was a famous 17th-century diesel mechanic.</value>
+  </data>
+  <data name="209" xml:space="preserve">
+    <value>I made myself a peanut butter sandwich as I didn't want to subsist on veggie crackers.</value>
+  </data>
+  <data name="21" xml:space="preserve">
+    <value>He said he was not there yesterday; however, many people saw him there.</value>
+  </data>
+  <data name="210" xml:space="preserve">
+    <value>Joe made the sugar cookies; Susan decorated them.</value>
+  </data>
+  <data name="211" xml:space="preserve">
+    <value>It didn't take long for Gary to detect the robbers were amateurs.</value>
+  </data>
+  <data name="212" xml:space="preserve">
+    <value>He decided to fake his disappearance to avoid jail.</value>
+  </data>
+  <data name="213" xml:space="preserve">
+    <value>The stench from the feedlot permeated the car despite having the air conditioning on recycled air.</value>
+  </data>
+  <data name="214" xml:space="preserve">
+    <value>If you like tuna and tomato sauce, try combining the two, it's really not as bad as it sounds.</value>
+  </data>
+  <data name="215" xml:space="preserve">
+    <value>The underground bunker was filled with chips and candy.</value>
+  </data>
+  <data name="216" xml:space="preserve">
+    <value>That was how he came to win $1 million.</value>
+  </data>
+  <data name="217" xml:space="preserve">
+    <value>Two seats were vacant.</value>
+  </data>
+  <data name="218" xml:space="preserve">
+    <value>Situps are a terrible way to end your day.</value>
+  </data>
+  <data name="219" xml:space="preserve">
+    <value>The rusty nail stood erect, angled at a 45-degree angle, just waiting for the perfect barefoot to come along.</value>
+  </data>
+  <data name="22" xml:space="preserve">
+    <value>Doris enjoyed tapping her nails on the table to annoy everyone.</value>
+  </data>
+  <data name="220" xml:space="preserve">
+    <value>David proudly graduated from high school top of his class at age 97.</value>
+  </data>
+  <data name="221" xml:space="preserve">
+    <value>You've been eyeing me all day and waiting for your move like a lion stalking a gazelle in a savannah.</value>
+  </data>
+  <data name="222" xml:space="preserve">
+    <value>The sight of his goatee made me want to run and hide under my sister-in-law's bed.</value>
+  </data>
+  <data name="223" xml:space="preserve">
+    <value>She insisted that cleaning out your closet was the key to good driving.</value>
+  </data>
+  <data name="224" xml:space="preserve">
+    <value>David subscribes to the "stuff your tent into the bag" strategy over nicely folding it.</value>
+  </data>
+  <data name="225" xml:space="preserve">
+    <value>The thunderous roar of the jet overhead confirmed her worst fears.</value>
+  </data>
+  <data name="226" xml:space="preserve">
+    <value>Chocolate covered crickets were his favorite snack.</value>
+  </data>
+  <data name="227" xml:space="preserve">
+    <value>The truth is that you pay for your lifestyle in hours.</value>
+  </data>
+  <data name="228" xml:space="preserve">
+    <value>The beach was crowded with snow leopards.</value>
+  </data>
+  <data name="229" xml:space="preserve">
+    <value>The random sentence generator generated a random sentence about a random sentence.</value>
+  </data>
+  <data name="23" xml:space="preserve">
+    <value>He had accidentally hacked into his company's server.</value>
+  </data>
+  <data name="230" xml:space="preserve">
+    <value>Trash covered the landscape like sprinkles do a birthday cake.</value>
+  </data>
+  <data name="231" xml:space="preserve">
+    <value>He embraced his new life as an eggplant.</value>
+  </data>
+  <data name="232" xml:space="preserve">
+    <value>She folded her handkerchief neatly.</value>
+  </data>
+  <data name="233" xml:space="preserve">
+    <value>We have never been to Asia, nor have we visited Africa.</value>
+  </data>
+  <data name="234" xml:space="preserve">
+    <value>The anaconda was the greatest criminal mastermind in this part of the neighborhood.</value>
+  </data>
+  <data name="235" xml:space="preserve">
+    <value>Nancy decided to make the porta-potty her home.</value>
+  </data>
+  <data name="236" xml:space="preserve">
+    <value>Erin accidentally created a new universe.</value>
+  </data>
+  <data name="237" xml:space="preserve">
+    <value>It's not possible to convince a monkey to give you a banana by promising it infinite bananas when they die.</value>
+  </data>
+  <data name="238" xml:space="preserve">
+    <value>He barked orders at his daughters but they just stared back with amusement.</value>
+  </data>
+  <data name="239" xml:space="preserve">
+    <value>When she didn't like a guy who was trying to pick her up, she started using sign language.</value>
+  </data>
+  <data name="24" xml:space="preserve">
+    <value>They say that dogs are man's best friend, but this cat was setting out to sabotage that theory.</value>
+  </data>
+  <data name="240" xml:space="preserve">
+    <value>Edith could decide if she should paint her teeth or brush her nails.</value>
+  </data>
+  <data name="241" xml:space="preserve">
+    <value>She cried diamonds.</value>
+  </data>
+  <data name="242" xml:space="preserve">
+    <value>For some unfathomable reason, the response team didn't consider a lack of milk for my cereal as a proper emergency.</value>
+  </data>
+  <data name="243" xml:space="preserve">
+    <value>He kept telling himself that one day it would all somehow make sense.</value>
+  </data>
+  <data name="244" xml:space="preserve">
+    <value>Rock music approaches at high velocity.</value>
+  </data>
+  <data name="245" xml:space="preserve">
+    <value>It had been sixteen days since the zombies first attacked.</value>
+  </data>
+  <data name="246" xml:space="preserve">
+    <value>If eating three-egg omelets causes weight-gain, budgie eggs are a good substitute.</value>
+  </data>
+  <data name="247" xml:space="preserve">
+    <value>Cursive writing is the best way to build a race track.</value>
+  </data>
+  <data name="248" xml:space="preserve">
+    <value>You'll see the rainbow bridge after it rains cats and dogs.</value>
+  </data>
+  <data name="249" xml:space="preserve">
+    <value>Malls are great places to shop; I can find everything I need under one roof.</value>
+  </data>
+  <data name="25" xml:space="preserve">
+    <value>At that moment I was the most fearsome weasel in the entire swamp.</value>
+  </data>
+  <data name="250" xml:space="preserve">
+    <value>The wooden spoon couldnt cut but left emotional scars.</value>
+  </data>
+  <data name="26" xml:space="preserve">
+    <value>There was no ice cream in the freezer, nor did they have money to go to the store.</value>
+  </data>
+  <data name="27" xml:space="preserve">
+    <value>He had concluded that pigs must be able to fly in Hog Heaven.</value>
+  </data>
+  <data name="28" xml:space="preserve">
+    <value>All you need to do is pick up the pen and begin.</value>
+  </data>
+  <data name="29" xml:space="preserve">
+    <value>Strawberries must be the one food that doesn't go well with this brand of paint.</value>
+  </data>
+  <data name="3" xml:space="preserve">
+    <value>If you don't like toenails, you probably shouldn't look at your feet.</value>
+  </data>
+  <data name="30" xml:space="preserve">
+    <value>She moved forward only because she trusted that the ending she now was going through must be followed by a new beginning.</value>
+  </data>
+  <data name="31" xml:space="preserve">
+    <value>I am my aunt's sister's daughter.</value>
+  </data>
+  <data name="32" xml:space="preserve">
+    <value>Green should have smelled more tranquil, but somehow it just tasted rotten.</value>
+  </data>
+  <data name="33" xml:space="preserve">
+    <value>The Great Dane looked more like a horse than a dog.</value>
+  </data>
+  <data name="34" xml:space="preserve">
+    <value>He wore the surgical mask in public not to keep from catching a virus, but to keep people away from him.</value>
+  </data>
+  <data name="35" xml:space="preserve">
+    <value>Erin accidentally created a new universe.</value>
+  </data>
+  <data name="36" xml:space="preserve">
+    <value>Greetings from the real universe.</value>
+  </data>
+  <data name="37" xml:space="preserve">
+    <value>This made him feel like an old-style rootbeer float smells.</value>
+  </data>
+  <data name="38" xml:space="preserve">
+    <value>I just wanted to tell you I could see the love you have for your child by the way you look at her.</value>
+  </data>
+  <data name="39" xml:space="preserve">
+    <value>She felt that chill that makes the hairs on the back of your neck when he walked into the room.</value>
+  </data>
+  <data name="4" xml:space="preserve">
+    <value>Kevin embraced his ability to be at the wrong place at the wrong time.</value>
+  </data>
+  <data name="40" xml:space="preserve">
+    <value>My Mum tries to be cool by saying that she likes all the same things that I do.</value>
+  </data>
+  <data name="41" xml:space="preserve">
+    <value>There were white out conditions in the town; subsequently, the roads were impassable.</value>
+  </data>
+  <data name="42" xml:space="preserve">
+    <value>He found his art never progressed when he literally used his sweat and tears.</value>
+  </data>
+  <data name="43" xml:space="preserve">
+    <value>Truth in advertising and dinosaurs with skateboards have much in common.</value>
+  </data>
+  <data name="44" xml:space="preserve">
+    <value>She wondered what his eyes were saying beneath his mirrored sunglasses.</value>
+  </data>
+  <data name="45" xml:space="preserve">
+    <value>He used to get confused between soldiers and shoulders, but as a military man, he now soldiers responsibility.</value>
+  </data>
+  <data name="46" xml:space="preserve">
+    <value>Seek success, but always be prepared for random cats.</value>
+  </data>
+  <data name="47" xml:space="preserve">
+    <value>I'd always thought lightning was something only I could see.</value>
+  </data>
+  <data name="48" xml:space="preserve">
+    <value>He had a wall full of masks so she could wear a different face every day.</value>
+  </data>
+  <data name="49" xml:space="preserve">
+    <value>As the rental car rolled to a stop on the dark road, her fear increased by the moment.</value>
+  </data>
+  <data name="5" xml:space="preserve">
+    <value>It took me too long to realize that the ceiling hadn't been painted to look like the sky.</value>
+  </data>
+  <data name="50" xml:space="preserve">
+    <value>Had he known what was going to happen, he would have never stepped into the shower.</value>
+  </data>
+  <data name="51" xml:space="preserve">
+    <value>The efficiency with which he paired the socks in the drawer was quite admirable.</value>
+  </data>
+  <data name="52" xml:space="preserve">
+    <value>I was fishing for compliments and accidentally caught a trout.</value>
+  </data>
+  <data name="53" xml:space="preserve">
+    <value>I met an interesting turtle while the song on the radio blasted away.</value>
+  </data>
+  <data name="54" xml:space="preserve">
+    <value>There's an art to getting your way, and spitting olive pits across the table isn't it.</value>
+  </data>
+  <data name="55" xml:space="preserve">
+    <value>Joyce enjoyed eating pancakes with ketchup.</value>
+  </data>
+  <data name="56" xml:space="preserve">
+    <value>It was her first experience training a rainbow unicorn.</value>
+  </data>
+  <data name="57" xml:space="preserve">
+    <value>Giving directions that the mountains are to the west only works when you can see them.</value>
+  </data>
+  <data name="58" xml:space="preserve">
+    <value>Despite what your teacher may have told you, there is a wrong way to wield a lasso.</value>
+  </data>
+  <data name="59" xml:space="preserve">
+    <value>Greetings from the galaxy MACS0647-JD, or what we call home.</value>
+  </data>
+  <data name="6" xml:space="preserve">
+    <value>He swore he just saw his sushi move.</value>
+  </data>
+  <data name="60" xml:space="preserve">
+    <value>Swim at your own risk was taken as a challenge for the group of Kansas City college students.</value>
+  </data>
+  <data name="61" xml:space="preserve">
+    <value>The Tsunami wave crashed against the raised houses and broke the pilings as if they were toothpicks.</value>
+  </data>
+  <data name="62" xml:space="preserve">
+    <value>The teens wondered what was kept in the red shed on the far edge of the school grounds.</value>
+  </data>
+  <data name="63" xml:space="preserve">
+    <value>He's in a boy band which doesn't make much sense for a snake.</value>
+  </data>
+  <data name="64" xml:space="preserve">
+    <value>The near-death experience brought new ideas to light.</value>
+  </data>
+  <data name="65" xml:space="preserve">
+    <value>She says she has the ability to hear the soundtrack of your life.</value>
+  </data>
+  <data name="66" xml:space="preserve">
+    <value>The green tea and avocado smoothie turned out exactly as would be expected.</value>
+  </data>
+  <data name="67" xml:space="preserve">
+    <value>Malls are great places to shop; I can find everything I need under one roof.</value>
+  </data>
+  <data name="68" xml:space="preserve">
+    <value>The sign said there was road work ahead so he decided to speed up.</value>
+  </data>
+  <data name="69" xml:space="preserve">
+    <value>Two seats were vacant.</value>
+  </data>
+  <data name="7" xml:space="preserve">
+    <value>It was the scarcity that fueled his creativity.</value>
+  </data>
+  <data name="70" xml:space="preserve">
+    <value>She hadn't had her cup of coffee, and that made things all the worse.</value>
+  </data>
+  <data name="71" xml:space="preserve">
+    <value>Tom got a small piece of pie.</value>
+  </data>
+  <data name="72" xml:space="preserve">
+    <value>He was sure the Devil created red sparkly glitter.</value>
+  </data>
+  <data name="73" xml:space="preserve">
+    <value>The elderly neighborhood became enraged over the coyotes who had been blamed for the poodle's disappearance.</value>
+  </data>
+  <data name="74" xml:space="preserve">
+    <value>Don't put peanut butter on the dog's nose.</value>
+  </data>
+  <data name="75" xml:space="preserve">
+    <value>They finished building the road they knew no one would ever use.</value>
+  </data>
+  <data name="76" xml:space="preserve">
+    <value>The bullet pierced the window shattering it before missing Danny's head by mere millimeters.</value>
+  </data>
+  <data name="77" xml:space="preserve">
+    <value>There's a message for you if you look up.</value>
+  </data>
+  <data name="78" xml:space="preserve">
+    <value>Nothing is as cautiously cuddly as a pet porcupine.</value>
+  </data>
+  <data name="79" xml:space="preserve">
+    <value>The tour bus was packed with teenage girls heading toward their next adventure.</value>
+  </data>
+  <data name="8" xml:space="preserve">
+    <value>Thirty years later, she still thought it was okay to put the toilet paper roll under rather than over.</value>
+  </data>
+  <data name="80" xml:space="preserve">
+    <value>They decided to plant an orchard of cotton candy.</value>
+  </data>
+  <data name="81" xml:space="preserve">
+    <value>The murder hornet was disappointed by the preconceived ideas people had of him.</value>
+  </data>
+  <data name="82" xml:space="preserve">
+    <value>He waited for the stop sign to turn to a go sign.</value>
+  </data>
+  <data name="83" xml:space="preserve">
+    <value>Boulders lined the side of the road foretelling what could come next.</value>
+  </data>
+  <data name="84" xml:space="preserve">
+    <value>The stranger officiates the meal.</value>
+  </data>
+  <data name="85" xml:space="preserve">
+    <value>Tomorrow will bring something new, so leave today as a memory.</value>
+  </data>
+  <data name="86" xml:space="preserve">
+    <value>Everybody should read Chaucer to improve their everyday vocabulary.</value>
+  </data>
+  <data name="87" xml:space="preserve">
+    <value>Dolores wouldn't have eaten the meal if she had known what it actually was.</value>
+  </data>
+  <data name="88" xml:space="preserve">
+    <value>Buried deep in the snow, he hoped his batteries were fresh in his avalanche beacon.</value>
+  </data>
+  <data name="89" xml:space="preserve">
+    <value>We need to rent a room for our party.</value>
+  </data>
+  <data name="9" xml:space="preserve">
+    <value>He found a leprechaun in his walnut shell.</value>
+  </data>
+  <data name="90" xml:space="preserve">
+    <value>The fish listened intently to what the frogs had to say.</value>
+  </data>
+  <data name="91" xml:space="preserve">
+    <value>For oil spots on the floor, nothing beats parking a motorbike in the lounge.</value>
+  </data>
+  <data name="92" xml:space="preserve">
+    <value>After exploring the abandoned building, he started to believe in ghosts.</value>
+  </data>
+  <data name="93" xml:space="preserve">
+    <value>You'll see the rainbow bridge after it rains cats and dogs.</value>
+  </data>
+  <data name="94" xml:space="preserve">
+    <value>We have never been to Asia, nor have we visited Africa.</value>
+  </data>
+  <data name="95" xml:space="preserve">
+    <value>I am never at home on Sundays.</value>
+  </data>
+  <data name="96" xml:space="preserve">
+    <value>Be careful with that butter knife.</value>
+  </data>
+  <data name="97" xml:space="preserve">
+    <value>Gary didn't understand why Doug went upstairs to get one dollar bills when he invited him to go cow tipping.</value>
+  </data>
+  <data name="98" xml:space="preserve">
+    <value>Jenny made the announcement that her baby was an alien.</value>
+  </data>
+  <data name="99" xml:space="preserve">
+    <value>The Great Dane looked more like a horse than a dog.</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Mechanical_Keyboard_single_button_presses_10_www_FesliyanStudios_com" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mechanical-Keyboard-single-button-presses-10-www.FesliyanStudios.com.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
